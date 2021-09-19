@@ -1,0 +1,46 @@
+:root {
+  font-size: 62.5%;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  text-transform: uppercase;
+  background-color: #282c34;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  padding: 2rem 4rem 2rem;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.developer-logo {
+  width: 3rem;
+  color: aliceblue;
+  padding: 0 1rem 0 0;
+}
+
+.navbar-header {
+  display: inline-block;
+}
+
+.link-container {
+  text-decoration: none;
+  list-style-type: none;
+  font-size: calc(2vmin + 2px);
+  font-weight: 300;
+  display: inline-flex;
+  flex-direction: row;
+  float: right;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+
+  li {
+    padding: 0 3rem;
+  }
+}

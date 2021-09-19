@@ -1,22 +1,24 @@
-import logo from './images/neon-triangle-abstract.jpg';
-import './App.css';
+import bg from './images/neon-triangle-abstract.jpg';
+import logo from './images/logo.svg';
+import './App.scss';
 
 function App() {
   return (
-    <div className='App'>
-      <header className='App-header'>
-        <img src={logo} className='App-logo' alt='logo' />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className='App-link'
-          href='https://reactjs.org'
-          target='_blank'
-          rel='noopener noreferrer'>
-          Learn React
-        </a>
-      </header>
+    <div className=''>
+      <nav className='App-header'>
+        <div className='navbar-header'>
+          <img src={logo} className='developer-logo' alt='logo' />
+          {'  '} Arvinth C
+        </div>
+        <ul className='link-container'>
+          <li>About</li>
+          <li>Passion</li>
+          <li>Experience</li>
+          <li>Work</li>
+          <li>Contact</li>
+        </ul>
+      </nav>
+      {/* <img src={bg} className='App-logo' alt='logo' /> */}
     </div>
   );
 }
