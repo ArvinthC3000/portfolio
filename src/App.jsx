@@ -4,7 +4,7 @@ import NavBar from './components/v1/NavBar';
 
 const App = () => {
   return (
-    <div className=''>
+    <div className='app-container'>
       <NavBar />
     </div>
   );
