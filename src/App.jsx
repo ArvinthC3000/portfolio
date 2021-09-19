@@ -7,15 +7,27 @@ function App() {
     <div className=''>
       <nav className='App-header'>
         <div className='navbar-header'>
-          <img src={logo} className='developer-logo' alt='logo' />
-          {'  '} Arvinth C
+          <a href='#!'>
+            <img src={logo} className='developer-logo' alt='logo' />
+            {'  '} Arvinth C
+          </a>
         </div>
         <ul className='link-container'>
-          <li>About</li>
-          <li>Passion</li>
-          <li>Experience</li>
-          <li>Work</li>
-          <li>Contact</li>
+          <li>
+            <a href='#!'>About</a>
+          </li>
+          <li>
+            <a href='#!'>Passion</a>
+          </li>
+          <li>
+            <a href='#!'>Experience</a>
+          </li>
+          <li>
+            <a href='#!'>Work</a>
+          </li>
+          <li>
+            <a href='#!'>Contact</a>
+          </li>
         </ul>
       </nav>
       {/* <img src={bg} className='App-logo' alt='logo' /> */}

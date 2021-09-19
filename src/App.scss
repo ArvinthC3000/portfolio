@@ -42,5 +42,16 @@
 
   li {
     padding: 0 3rem;
+    a {
+      color: #fff;
+    }
+    a:hover {
+      color: #cccccc;
+    }
   }
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
 }
