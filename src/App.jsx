@@ -2,7 +2,7 @@ import bg from './images/neon-triangle-abstract.jpg';
 import logo from './images/logo.svg';
 import './App.scss';
 
-function App() {
+const App = () => {
   return (
     <div className=''>
       <nav className='App-header'>
@@ -33,6 +33,6 @@ function App() {
       {/* <img src={bg} className='App-logo' alt='logo' /> */}
     </div>
   );
-}
+};
 
 export default App;
